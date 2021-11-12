@@ -1,0 +1,14 @@
+    
+<%- include('partials/header') %>
+<h1>Dog Page</h1>
+
+<% canines.forEach(function(el){ %>
+    <p><%= el %></p>
+<%}) %>
+
+<!-- shorthand version below -->
+<% canines.forEach(element => { %>
+    <p><%= element %></p>
+<% }) %>
+
+<%- include('partials/footer') %>

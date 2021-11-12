@@ -1,0 +1,54 @@
+/* * {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: roboto;
+}
+
+.backgroundImg {
+    background-image: url(backgroundhousepic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.formcontainer {
+    position: fixed;
+    background: white;
+    width: 400px;
+    margin: 40px;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+input {
+    padding: 15px;
+    margin: 15px 0 30px 0;
+    width: 100%;
+    background: #eeeeee;
+}
+
+input:focus {
+    background: #e0e0e0;
+}
+
+.thebutton {
+    padding: 16px 20px;
+    font-size: 26px;
+    cursor: pointer;
+    background: #f44336;
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+}
+
+.thebutton:hover {
+    color: purple;
+    background: orange;
+    transition: 0.5s;
+} */

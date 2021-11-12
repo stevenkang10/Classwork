@@ -1,0 +1,7 @@
+<h1>This is the Results Page</h1>
+<% let {weather_state_name, min_temp, max_temp, humidity} = data.consolidated_weather[0] %>
+
+<p>Forcast today: <%= weather_state_name %></p>
+<p>Low Temp today: <%= min_temp %></p>
+<p>High Temp today: <%= max_temp %></p>
+<p>Humidity today: <%= humidity %></p>

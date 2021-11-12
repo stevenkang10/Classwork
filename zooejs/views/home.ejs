@@ -1,0 +1,21 @@
+
+<%- include('partials/header') %>
+
+
+<h1>Welcome to the Zoo</h1>
+<p>Today's animals are:</p>
+
+<!-- data is an array  -->
+<!-- need to iterate -->
+<!-- how about the forEach -->
+
+
+<% console.log(animal) %>
+<% animal['zoo'].forEach(el => { %>
+    <p>
+        <%= el.breed %>
+    </p>
+<% }) %>
+
+    
+<%- include('partials/footer') %>

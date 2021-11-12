@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<h1>People Page</h1>
+<!-- <%= person[0].fname %>
+<%= person[0].age %>
+<%= person[0].isMarried %> -->
+
+<% person.forEach(el => { %>
+    <p>
+        <%= el.fname %>
+        <%= el.age %>
+        <%= el.isMarried %>
+    </p>
+
+<% }) %>
+
+<%- include('partials/footer') %>

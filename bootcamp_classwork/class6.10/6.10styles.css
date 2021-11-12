@@ -1,0 +1,87 @@
+/* body {
+    font-family: 'pacifico', cursive;
+}
+
+p:nth-of-type(3){
+    background: red;
+}
+
+p:nth-of-type(3n){
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* p:nth-child(3){
+    background: red;
+}
+p:nth-child(3n){
+    font-weight: bold;
+    font-size: 36px;
+} */
+
+/* .bed {
+    font-size: 90px
+} */
+/* 
+
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 5px auto;
+}
+
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+} */
+
+h1 {
+    text-align: center;
+}
+table {
+    margin: auto; /*This centers the board.*/
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+.vertical {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.horizontal {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#x {
+    font-size: 125px;
+}
+#o {
+    font-size: 108px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This is my first node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fishing"
+  ],
+  "author": "skang",
+  "license": "ISC",
+  "dependencies": {
+    "yes-no-words": "^2.0.0"
+  }
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(red, orange) no-repeat;
+    height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 3em;
+  }
+  .container {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  button {
+    height: 10vh;
+    background: linear-gradient(darkgreen, lightgreen, yellow, green);
+    border-radius: 10%;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px black, 2px 2px 5px darkred;
+    padding: 0 2%;
+  }
+  #marvin {
+    width: 65vw;
+    height: 60vh;
+    margin: 5% auto;
+    box-shadow: none;
+  }
+  img {
+    width: 20vw;
+    height: 25vh;
+    margin: 1%;
+    box-shadow: -2px 2px 5px white, -3px 3px 10px black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

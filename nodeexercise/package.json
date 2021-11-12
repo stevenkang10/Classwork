@@ -1,0 +1,17 @@
+{
+  "name": "nodeexercise",
+  "version": "1.0.0",
+  "description": "practice exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "skang",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3"
+  }
+}

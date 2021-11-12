@@ -1,0 +1,65 @@
+/* body {
+    background: linear-gradient(pink, yellow
+    );
+}
+
+
+#burger {
+    color: orange;
+}
+
+#onions {
+    color: green;
+}
+
+#fries {
+    color: red;
+}
+
+.strawberry {
+    background: red;
+}
+
+.blueberry {
+    background: blue;
+}
+
+p {
+    background: blue;
+    padding: 50px;
+    margin-right: 200px;
+    border: black solid 3px;
+}
+
+* {
+    background: blue;
+}
+
+li a {
+    color: green;
+}
+
+a[href="http://www.facebook.com"]{
+    color: orange;
+}
+
+input[type="text"]{
+    color: blue;
+}  */
+
+p:nth-of-type(3){
+    background: red;
+}
+
+p:nth-of-type(3n){
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* p:nth-child(3){
+    background: red;
+}
+p:nth-child(3n){
+    font-weight: bold;
+    font-size: 36px;
+} */
